@@ -44,6 +44,18 @@
         <EmbeddedResource Update="Publishing\Resources\PublishingMessages.es.resx">
             <DependentUpon>PublishingMessages.cs</DependentUpon>
         </EmbeddedResource>
+        <EmbeddedResource Update="Shared\Resources\CommonMessages.resx">
+          <Generator>ResXFileCodeGenerator</Generator>
+          <LastGenOutput>CommonMessages.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Shared\Resources\Errors\ErrorMessages.resx">
+          <Generator>ResXFileCodeGenerator</Generator>
+          <LastGenOutput>ErrorMessages.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Shared\Resources\Errors\ErrorMessages.es.resx">
+          <Generator>ResXFileCodeGenerator</Generator>
+          <LastGenOutput>ErrorMessages.es.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
     </ItemGroup>
 
 </Project>
